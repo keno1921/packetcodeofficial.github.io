@@ -1,0 +1,177 @@
+*{ 
+  margin: 0;
+  padding: 0;
+}
+
+.meni {
+  background-color: #031340;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+ul {
+  height: 10px;
+  padding: 2px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  gap: 140px;
+}
+
+ul li  {
+list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  transition: 0.5 ease;
+}
+ul:hover li a{
+  color: #e566f0;
+  animation:glowing Is ease-in-out infinite alternate;
+}
+ul:hover li a:not(:hover){
+  color: rgb(55, 23, 84);
+  opacity: 0.3;
+  filter: blur(1px);
+}
+.slika {
+  position: absolute;
+  display: block;
+  top: -3px;
+  left: 30px;
+  width: 120px;
+}
+.naslovna {
+  background-image: url("../img/nemirujemo.png");
+  padding-top: 270px;
+  background-size: cover;
+  background-position: center;
+}
+.glavna {
+  background-color: #ddcedf;
+  height: 580px;
+}
+.glavna h2 {
+  text-align: center;
+  font-size: 60px;
+  text-decoration: solid;
+}
+.slike {
+  height: 250px;
+  background-color: #a56beb;
+  box-shadow: -20px 15px 21px -1px rgba(0,0,0,0.8);
+  -webkit-box-shadow: -20px 15px 21px -1px rgba(0,0,0,0.8);
+  -moz-box-shadow: -20px 15px 21px -1px rgba(0,0,0,0.8);
+  text-align: center;
+  color: white;
+  padding-bottom:2px;
+  transition: 0.3s;
+  margin-top: 40px;
+}
+.slike:hover{
+  background-color: blueviolet;
+  cursor: pointer;
+  margin-top: -5px;
+}
+.vijesti1 h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+.vijesti1 .tekst{
+  display: block;
+  width: 90%;
+  height: auto;
+  padding: 13px;
+  background-color: white;
+}
+.cat {
+  position: relative;
+  top: 0;
+  right: 0;
+  padding: 5px 13px;
+  background-color: rgba(128,212,244,.9);
+  border-top-right-radius: -5px;
+  border-bottom-left-radius: 5px;
+}
+.cat a {
+  text-decoration: none;
+  text-transform: unset;
+  font-size: 20px;
+}
+.boje .plava {
+  background-color: #113165;
+}
+.bijela {
+  background-color: white;
+}
+.crna {
+  background-color: black;
+}
+.boje span{
+  display: block;
+  width: 100%;
+  height: 8px;
+}
+.kraj {
+  background-color: #031340;
+  height: 200px;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+.kraj h4 {
+  margin-top: 40px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #80D4F4;
+  color: white;
+}
+.fa-instagram {
+  padding-top: 30px;
+}
+.ikone {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.icon-bar {
+    background: #80D4F4;
+    color: white;
+    text-align: center;
+
+}
+.icon-bar .fa-facebook {
+  color: #031340;
+}
+.icon-bar .fa-twitter {
+  color: #031340;
+}
+.icon-bar .fa-google {
+  color: #031340;
+}
+.icon-bar .fa-youtube{
+  color: #031340;
+}
+.icon-bar .fa-linkedin {
+  color: #031340;
+}
